@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, TemplateView, UpdateView, DeleteView
 from .models import Empleado
-from .forms import EmpleadoForm
+from .form import EmpleadoForm
 
 # Create your views here.
 
